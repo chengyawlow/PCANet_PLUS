@@ -30,14 +30,14 @@ MATLAB Codes
 	
 	% ***** PERFORMANCE SUMMARY ***** 
 	% 
-	% recogRate_CD = 				                              <<<<< Rank-1 Identification Rate (%) W/O WPCA
+	% recogRate_CD = 	<<<<< Rank-1 Identification Rate (%) W/O WPCA
 	% 
 	%    93.6402   88.6598   74.7922   65.3846   80.6192	<<<<< Layer-1
 	%    95.3975   99.4845   86.9806   85.4701   91.8332	<<<<< Layer-2
 	%    97.4895  100.0000   90.1662   88.4615   94.0293 	<<<<< Layer-3
 	% 
 	% 
-	% recogRate_CD_wPCA =			                            <<<<< Rank-1 Identification Rate (%) W/ WPCA 1190
+	% recogRate_CD_wPCA =	<<<<< Rank-1 Identification Rate (%) W/ WPCA 1190
 	% 
 	%    99.4979   99.4845   92.6593   88.8889   95.1327	<<<<< Layer-1
 	%    99.3305  100.0000   95.4294   94.4444   97.3011	<<<<< Layer-2	

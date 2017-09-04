@@ -38,7 +38,7 @@ function FERET_PCANet_PLUS_FilterBank_MAIN_ONLINE( PCANet, X_TR, X_HEIGHT, X_WID
         assert( numel( X_TR ) == X_TR_MAX );
 
         % Learn PCA filter banks, with respect to Stage_ID & PCANet parameters
-        V{ Stage_ID } = PCANet_PLUS_LearnFilterBank_ONLINE( X_TR, PCANet.PatchSize( Stage_ID ), PCANet.NumFilters( Stage_ID ), PCANet );
+        V{ Stage_ID } = PCANet_PLUS_LearnFilterBank( X_TR, PCANet.PatchSize( Stage_ID ), PCANet.NumFilters( Stage_ID ), PCANet );
         
         % Estimate the PCA feature maps only, if it is NOT the last Stage_ID
         if Stage_ID ~= PCANet.NumStages 

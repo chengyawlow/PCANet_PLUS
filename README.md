@@ -13,7 +13,7 @@ MATLAB Codes
 	
 	****************************************.
 	
-        To reproduce the reported results (for FERET dataset), please run FERET_PCANet_PLUS_MAIN.
+	To reproduce the reported results (for FERET dataset), please run FERET_PCANet_PLUS_MAIN.
 	
 	Please use only the FERET dataset, i.e., "FERET_I_128_128.mat", shared in this folder.
 	

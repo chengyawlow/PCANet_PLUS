@@ -19,7 +19,7 @@ MATLAB Codes
 	
 	2. Run FERET_PCANet_PLUS_MAIN.
 	
-	The pre-learned PCA filter are provided in PCANet_PLUS_PRE_LEARNED_FILTERS.
+	The pre-learned PCA filter are provided in the PCANet_PLUS_PRE_LEARNED_FILTERS folder.
 	
 	However, to trigger PCA filter learning, please set LEARNING_FLAG = 1 (by DEFAULT, LEARNING_FLAG = 0). 
 	

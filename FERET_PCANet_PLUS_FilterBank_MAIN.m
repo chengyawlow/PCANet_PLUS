@@ -47,10 +47,10 @@ function FERET_PCANet_PLUS_FilterBank_MAIN_ONLINE( PCANet, X_TR, X_HEIGHT, X_WID
             fprintf( 'STAGE %d : EXTRACTING PCANet FEA. MAPS ... ', Stage_ID );
             fprintf( '\n' ); 
                        
-            [ X_TR ] = PCANet_PLUS_Output_ONLINE( X_TR, PCANet.PatchSize( Stage_ID ), PCANet.NumFilters( Stage_ID ), V{ Stage_ID }, PCANet );
+            [ X_TR ] = PCANet_PLUS_Output( X_TR, PCANet.PatchSize( Stage_ID ), PCANet.NumFilters( Stage_ID ), V{ Stage_ID }, PCANet );
             
             if PCANet.NL ~= 0
-                [ X_TR, ~ ] = PCANet_PLUS_NonLinearity_ONLINE( X_TR, PCANet, Stage_ID );
+                [ X_TR, ~ ] = PCANet_PLUS_NonLinearity( X_TR, PCANet, Stage_ID );
             end
 
         end

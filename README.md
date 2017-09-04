@@ -13,9 +13,11 @@ MATLAB Codes
 	
 	****************************************.
 	
-	To reproduce the reported results (for FERET dataset), please run FERET_PCANet_PLUS_MAIN.
+	To reproduce the reported results (for FERET only):
 	
-	Please use only the FERET dataset, i.e., "FERET_I_128_128.mat", shared in this folder.
+	1. Please email us for "FERET_I_128_128.mat".
+	
+	2. Run FERET_PCANet_PLUS_MAIN.
 	
 	The pre-learned PCA filter are provided in PCANet_PLUS_PRE_LEARNED_FILTERS.
 	

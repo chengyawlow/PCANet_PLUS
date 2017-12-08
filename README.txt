@@ -12,7 +12,7 @@
 	
 	To reproduce the reported results (for FERET only):
 	
-	1. Please email us for "FERET_I_128_128.mat".
+	1. Due to the copyright issue, we do not re-distribute the FERET dataset. However, you can request for it from https://www.nist.gov/itl/iad/image-group/color-feret-database.
 	
 	2. Run FERET_PCANet_PLUS_MAIN.
 		
